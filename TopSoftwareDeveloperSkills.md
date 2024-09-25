@@ -19,3 +19,5 @@
 6. **Attention to Detail**: Being meticulous with code and documentation to avoid errors.
 
 These skills are vital for software developers to excel in modern development environments.
+
+adding changes from my iPhone. 
