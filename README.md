@@ -1,5 +1,5 @@
-Please ready me! 
+Please read me! 
 
 [Top Software Dev Skills](./TopSoftwareDeveloperSkills.md)
 
-Thanks!
+Thanks You!
