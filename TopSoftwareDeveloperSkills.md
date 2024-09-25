@@ -1,13 +1,13 @@
 ### Technical Skills:
-1. **Programming Languages**: Proficiency in popular languages like Python, Java, C#, JavaScript, or specialized ones like Swift, Go, or Rust.
+1. **Programming Languages**: Proficiency in popular languages like Python, Java, C#, VB, JavaScript. (Specialized in C# and Powershell.)
 2. **Data Structures and Algorithms**: A solid grasp of how data is organized and processed efficiently, which is crucial for solving complex problems.
 3. **Version Control**: Expertise in using Git or other version control systems for collaboration and maintaining code history.
 4. **Database Management**: Knowledge of both SQL and NoSQL databases (e.g., MySQL, PostgreSQL, MongoDB), including how to write and optimize queries.
-5. **Web Development**: Skills in front-end (HTML, CSS, JavaScript frameworks) and back-end technologies (Node.js, ASP.NET, Django).
+5. **Web Development**: Skills in front-end (HTML, CSS, JavaScript frameworks) and back-end technologies ( ASP.NET).
 6. **Testing and Debugging**: Ability to write unit tests, integration tests, and debug code efficiently.
 7. **Software Design Patterns**: Familiarity with design patterns like MVC, Singleton, and others to structure code effectively.
 8. **APIs and Web Services**: Experience with RESTful APIs, SOAP, and integrating third-party services.
-9. **Cloud Computing**: Understanding of cloud platforms like AWS, Azure, or Google Cloud for deploying and managing applications.
+9. **Cloud Computing**: Understanding of cloud platforms like AWS, **Azure**, or Google Cloud for deploying and managing applications.
 10. **Security Best Practices**: Awareness of secure coding practices, encryption, and vulnerability mitigation.
 
 ### Non-Technical Skills:
