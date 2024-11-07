@@ -4,6 +4,7 @@
 [Azure SQL Docker Image](./AzureSQLEdge.md)
 
 # C#
+[C# Standards](./CSharp/CSharpCodingStandards.md)
 - Variables
 - Conditionals
 - Methods
