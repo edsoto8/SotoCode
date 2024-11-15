@@ -11,7 +11,7 @@ dotnet new console -n $ProjectName
 dotnet sln add $ProjectName/$ProjectName.csproj
 
 # Navigate into the project folder
-cd $ProjectName
+Set-Location $ProjectName
 
 # Restore dependencies
 dotnet restore
