@@ -90,4 +90,3 @@ Console.WriteLine($"Default Value: {default(decimal)}");
 - **Use `double`** for general-purpose floating-point arithmetic where performance is important.
 - **Use `float`** when memory usage and performance are more important than precision.
 
-Would you like to see more detailed examples or use cases with `decimal`?
