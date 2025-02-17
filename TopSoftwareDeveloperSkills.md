@@ -21,3 +21,33 @@
 These skills are vital for software developers to excel in modern development environments.
 
 adding changes from my iPhone. 
+
+
+## Interview Questions on .NET
+- .net Framework
+- Object-oriented Programing
+- ADO.NEt
+- Dynamic Programming
+- ASP.NET
+- Application Deployment
+- Clouding Computing
+- .net Programming Concepts
+- Windows Controls
+- Language-Integrated Query(LINQ)
+- XML
+- Web Services
+- ASP.NET
+- .NET Assemblies
+- Visual Studio
+
+## Interview Questions on Software Testing
+- Testing Basics
+- Software Process
+- Six Sigma
+- Automated Testing
+- Testing Techniques
+- Metrics
+- Testing Estimation
+
+## Database Management
+
