@@ -30,7 +30,7 @@ There are three primary ways to implement DI:
 
 1. **Constructor Injection**  
    - Dependencies are provided through the class constructor.
-     ```csharp
+```csharp
      public class Service
      {
          private readonly IRepository _repository;
@@ -39,16 +39,16 @@ There are three primary ways to implement DI:
              _repository = repository;
          }
      }
-     ```
+```
 
 2. **Setter Injection**  
    - Dependencies are provided via setter methods or properties.
-     ```csharp
+```csharp
      public class Service
      {
          public IRepository Repository { get; set; }
      }
-     ```
+```
 
 3. **Interface Injection**  
    - The dependency provides an interface that the client implements, ensuring the dependency gets set appropriately.
