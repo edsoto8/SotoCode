@@ -76,3 +76,92 @@ public int Age
 | Auto Property   | Compiler-made | No (usually) | Simple, concise syntax        |
 
 ---
+
+
+## Expression-Bodied Properties (C# 6+)
+Concise syntax for simple property implementations:
+
+```csharp
+// Get-only property
+public string FullName => $"{FirstName} {LastName}";
+
+// Get and set (C# 7+)
+public string Name
+{
+    get => _name;
+    set => _name = value;
+}
+```
+
+## Init-Only Properties (C# 9+)
+Properties that can only be set during object initialization:
+
+```csharp
+public string Id { get; init; }
+
+// Usage:
+var person = new Person { Id = "123" };
+// person.Id = "456"; // This would cause a compilation error
+```
+
+## Property Initializers
+Default values for auto-properties:
+
+```csharp
+public string Status { get; set; } = "Active";
+public List<string> Tags { get; set; } = new List<string>();
+```
+
+## Calculated Properties
+Properties that compute their value:
+
+```csharp
+public string FullName => $"{FirstName} {LastName}";
+public int Age => DateTime.Now.Year - BirthYear;
+public bool IsAdult => Age >= 18;
+```
+
+## Accessibility Modifiers
+Finer control over property access:
+
+```csharp
+public string Name { get; private set; }  // Public get, private set
+internal string Id { get; set; }          // Internal property
+protected string SecretCode { get; set; } // Accessible in derived classes
+```
+
+## Indexers
+Special properties accessed with [] notation:
+
+```csharp
+public class StringCollection
+{
+    private string[] _strings = new string[10];
+    
+    public string this[int index]
+    {
+        get => _strings[index];
+        set => _strings[index] = value;
+    }
+}
+
+// Usage:
+var collection = new StringCollection();
+collection[0] = "Hello";
+```
+
+## Property Inheritance
+Properties can be inherited, overridden, or hidden:
+
+```csharp
+public class Base
+{
+    public virtual string Info { get; set; }
+}
+
+public class Derived : Base
+{
+    public override string Info { get; set; }
+}
+```
+

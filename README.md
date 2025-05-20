@@ -1,8 +1,29 @@
-## Soto Code
+# Soto Code
 [Top Software Dev Skills](./TopSoftwareDeveloperSkills.md)
 [Azure SQL Docker Image](./AzureSQLEdge.md)
 
 ## [AppSettings](./AppSettings/Appsettings.md)
+- Configuration File Formats (JSON, XML, INI)
+- Environment-Specific Settings
+- Configuration Providers
+- User Secrets Management
+- Options Pattern
+- Strongly-Typed Configuration
+- Binding Configuration Values
+- Configuration Validation
+- Hierarchical Configuration
+- Environment Variables
+- Command-Line Arguments
+- Azure Key Vault Integration
+- Reloading Configuration Changes
+- Configuration in Different Project Types
+- Connection String Management
+- Secure Secrets Storage
+- Configuration Best Practices
+- IConfiguration Interface
+- Configuration in Docker Containers
+- Configuration in Kubernetes
+- Feature Flags Management
 
 ## C#
 [C# Standards](./CSharp/CSharpCodingStandards.md)
@@ -19,17 +40,775 @@
 - Blazor Server
 - Blazor WebAssembly
 - T4 Templates
+- Object-Oriented Programming
+- Asynchronous Programming (async/await)
+- Generics
+- Collections and LINQ (expanded)
+- Delegates and Events
+- Extension Methods
+- Exception Handling
+- File I/O Operations
+- Attributes and Reflection
+- Memory Management
+- Multithreading and Parallelism
+- Dependency Injection
+- Entity Framework Core
+- .NET SDK Versions (.NET 6/7/8)
+- Interfaces and Inheritance
+- Expression Trees
+- C# 9/10/11/12 New Features
+- Records and Pattern Matching
+- Serialization/Deserialization
+- NuGet Package Management
+- Unit Testing with xUnit/NUnit/MSTest
 
+## Web Development(ASP.NET)
+- ASP.NET Core Fundamentals
+- MVC Architecture
+- Web API Development
+- Middleware Pipeline
+- Configuration and Options Pattern
+- Routing
+- Authentication & Authorization
+- State Management
+- View Components
+- Tag Helpers
+- Areas
+- Filters and Action Results
+- Dependency Injection (ASP.NET specific)
+- Hosting and Deployment
+- Minimal APIs
+- SignalR for Real-time Applications
+- gRPC Services
+- Health Checks and Diagnostics
+- Performance Optimization
+- Security Best Practices
+- Caching Strategies
+- Error Handling and Logging
+- Identity Framework
+- WebSockets Implementation
 ## Database
-
+- SQL Fundamentals (SELECT, INSERT, UPDATE,  DELETE)
+- Database Design and Normalization
+- Indexing and Query Optimization
+- Stored Procedures and Functions
+- Triggers and Events
+- Transactions and ACID Properties
+- Entity Relationship Diagrams
+- SQL Server Management
+- MySQL/PostgreSQL Basics
+- NoSQL Database Types
+    - Document Databases (MongoDB)
+    - Key-Value Stores (Redis)
+    - Column Databases (Cassandra)
+    - Graph Databases (Neo4j)
+- ORM Frameworks
+- Database Migration Strategies
+- Database Scaling (Sharding, Replication)
+- Connection Pooling
+- Data Warehousing Concepts
+- SQL Injection Prevention
+- Database Backup and Recovery
+- Query Performance Tuning
+- In-Memory Database Solutions
+- JSON Support in Databases
+- Time Series Databases
+- Database Security Best Practices
 ## Design Patterns
 
-## DevOps
+## Dependency Injection
+- Dependency Injection Fundamentals
+- Inversion of Control (IoC) Principles
+- Service Lifetimes (Singleton, Scoped, Transient)
+- DI Container Architecture
+- Built-in DI in .NET Core
+- Constructor Injection
+- Property Injection
+- Method Injection
+- Service Registration Patterns
+- Service Resolution
+- Factory Patterns with DI
+- Dependency Injection in ASP.NET Core
+- DI in Console Applications
+- Popular DI Containers (Autofac, Ninject, Unity)
+- Scoped vs Transient Services
+- Circular Dependencies and How to Avoid Them
+- Service Descriptors
+- Configuration with DI
+- Dependency Injection for Testing
+- Mocking Dependencies
+- DI Best Practices
+- Common DI Anti-Patterns
+- Service Locator (When to Avoid)
+- DI with Generic Services
+- Decorators and the Decorator Pattern
+- Middleware with DI
+- DI in Blazor Applications
+- DI with Worker Services
 
+## DevOps CI/CD
+- GitHub Actions
+- Azure DevOps Pipelines
+- Deployment Strategies
 ## Powershell
+- PowerShell Basics (Cmdlets, Parameters, Pipeline)
+- PowerShell Syntax and Structure
+- Variables and Data Types
+- Operators (Comparison, Logical, etc.)
+- Conditional Statements (If-Else, Switch)
+- Loops (ForEach, While, Do-While)
+- Functions and Advanced Functions
+- PowerShell Modules
+- Error Handling and Debugging
+- Working with Files and Directories
+- String Manipulation
+- PowerShell Profiles
+- Remote Management with PowerShell
+- PowerShell Scripting Best Practices
+- PowerShell DSC (Desired State Configuration)
+- WMI and CIM in PowerShell
+- PowerShell and Active Directory
+- PowerShell and Azure
+- PowerShell and SQL Server
+- Background Jobs and Scheduled Tasks
+- PowerShell and REST APIs
+- PowerShell Security (Execution Policy, Signing Scripts)
+- PowerShell 7 Features
+## Docker
+- Docker Fundamentals and Architecture
+- Installing and Configuring Docker
+- Docker CLI Commands
+- Dockerfile Best Practices
+- Building Docker Images
+- Managing Docker Containers
+- Docker Volumes and Data Persistence
+- Docker Networking
+- Docker Compose for Multi-Container Apps
+- Docker Registry and Repository Management
+- Container Security Best Practices
+- Docker in CI/CD Pipelines
+- Docker Resource Management
+- Docker Logging and Monitoring
+- Docker Swarm for Orchestration
+- Multi-stage Builds
+- Docker Optimization Techniques
+- Docker in Production Environments
+- Docker Desktop for Development
+- Docker Extensions and Plugins
+- Troubleshooting Docker Issues
+- Docker and Microservices
+- Docker with .NET Applications
+- Docker in Windows vs Linux Environments
+- Container Health Checks
+
+## Azure/Cloud
+- Azure Fundamentals and Core Concepts
+- Azure Resource Groups and Subscriptions
+- Azure Virtual Machines
+- Azure App Service
+- Azure Functions
+- Azure Logic Apps
+- Azure Storage (Blobs, Tables, Queues)
+- Azure SQL Database
+- Azure Cosmos DB
+- Azure Key Vault
+- Azure Active Directory
+- Azure Networking (VNets, NSGs, Load Balancers)
+- Azure API Management
+- Azure DevOps Services
+- Azure Kubernetes Service (AKS)
+- Azure Container Instances
+- Azure Monitor and Application Insights
+- Azure Service Bus
+- Azure Event Grid/Event Hubs
+- Azure Cognitive Services
+- Azure Machine Learning
+- Azure IoT Hub
+- Azure Security Center
+- Azure Policy and Governance
+- Azure Cost Management
+- Azure Synapse Analytics
+- ARM Templates
+- Bicep for Infrastructure as Code
+- Azure CLI and PowerShell
 
 ## Software Design/Architecture
+- Architectural Patterns (MVC, MVVM, Clean Architecture)
+- Design Principles (SOLID, DRY, KISS)
+- Domain-Driven Design
+- Microservices Architecture
+- Service-Oriented Architecture (SOA)
+- Event-Driven Architecture
+- Serverless Architecture
+- Layered Architecture
+- Monolithic vs Distributed Systems
+- API Gateway Pattern
+- Circuit Breaker Pattern
+- CQRS (Command Query Responsibility Segregation)
+- Event Sourcing
+- Hexagonal Architecture
+- Messaging Patterns
+- Saga Pattern
+- Strangler Fig Pattern
+- Bulkhead Pattern
+- Sidecar Pattern
+- Backend for Frontend (BFF) Pattern
+- Architectural Decision Records (ADRs)
+- Architecture Diagrams (C4 Model)
+- System Design Fundamentals
+- Component Design
+- High Availability Design
+- Scalability Patterns
+- Resilience Patterns
+- Performance Design Considerations
 
 ## Software Development Environment
+- Visual Studio IDE
+- Visual Studio Code
+- JetBrains Rider
+- Code Editors and Extensions
+- Terminal Setup (iTerm, Windows Terminal)
+- Shell Environments (PowerShell, Bash, Zsh)
+- Git and Version Control Tools
+- Package Managers (NuGet, npm)
+- Build Systems (.NET CLI, MSBuild)
+- Task Runners
+- Debugging Tools
+- Code Analysis Tools
+- Linters and Formatters
+- Project Templates
+- Docker Development Environments
+- WSL (Windows Subsystem for Linux)
+- Development Certificates
+- Local Database Tools
+- API Testing Tools (Postman, Insomnia)
+- Environment Variables Management
+- Secrets Management for Development
+- SSH Keys and Configuration
+- Productivity Extensions and Snippets
+- Cross-Platform Development Setup
+- Remote Development Environments
+- GitHub Codespaces
+- DevContainers
 
+## Web Development(HTML, Javascript, CSS)
+- HTML5 Fundamentals and Semantic Elements
+- CSS Basics and Selectors
+- CSS Box Model and Layout
+- Flexbox and Grid Systems
+- CSS Variables and Custom Properties
+- CSS Preprocessors (SASS, LESS)
+- Responsive Web Design
+- Media Queries
+- JavaScript Fundamentals
+- DOM Manipulation
+- Browser Events and Event Handling
+- JavaScript ES6+ Features
+- JavaScript Modules
+- Asynchronous JavaScript (Promises, Async/Await)
+- Fetch API and AJAX
+- Local Storage and Session Storage
+- Web APIs (Geolocation, Canvas, etc.)
+- Frontend Frameworks (React, Angular, Vue)
+- State Management (Redux, Context API)
+- TypeScript
+- Package Management (npm, yarn)
+- Module Bundlers (Webpack, Vite)
+- Frontend Build Tools
+- Progressive Web Apps (PWAs)
+- Web Accessibility (WCAG)
+- Browser DevTools
+- Web Performance Optimization
+- Cross-Browser Compatibility
+- Single Page Applications (SPAs)
+
+
+## Testing
+- Unit Testing
+- Integration Testing
+- End-to-End Testing
+- Functional Testing
+- System Testing
+- Acceptance Testing
+- Regression Testing
+- Performance Testing
+- Load Testing
+- Stress Testing
+- Security Testing
+- Penetration Testing
+- Mutation Testing
+- Test-Driven Development (TDD)
+- Behavior-Driven Development (BDD)
+- Property-Based Testing
+- Mocking Frameworks
+- Stubbing and Faking
+- Test Coverage Analysis
+- UI/Visual Testing
+- API Testing
+- Database Testing
+- Contract Testing
+- Test Automation Frameworks
+- Testing in CI/CD Pipelines
+- Test Data Generation
+- Test Environment Management
+- Test Documentation
+- Test Case Design Techniques
+- Smoke and Sanity Testing
+- Accessibility Testing
+- Cross-Browser Testing
+- Flaky Test Management
+- Test Reports and Metrics
+
+## API Development
+- REST API Design Principles
+- RESTful Resource Modeling
+- HTTP Methods and Status Codes
+- URL Structure and Endpoint Design
+- GraphQL Schema Design
+- GraphQL Resolvers and Types
+- API Versioning Strategies
+- API Documentation Tools (Swagger/OpenAPI)
+- API Authentication Methods
+- OAuth 2.0 and JWT Implementation
+- API Authorization Patterns
+- Rate Limiting and Throttling
+- API Gateways
+- CORS Configuration
+- Error Handling Best Practices
+- API Pagination Techniques
+- Filtering, Sorting, and Searching
+- Hypermedia APIs and HATEOAS
+- WebHooks Implementation
+- gRPC API Development
+- API-First Design Approach
+- Contract Testing for APIs
+- API Caching Strategies
+- API Monitoring and Analytics
+- Performance Optimization Techniques
+- API Security Best Practices
+- Batch Operations
+- Idempotent API Design
+- API Mocking for Development
+
+## Security
+- OWASP Top 10 Vulnerabilities
+- Authentication and Authorization
+- Identity Management Systems
+- OAuth 2.0 and OpenID Connect
+- JSON Web Tokens (JWT)
+- Password Management Best Practices
+- Multi-factor Authentication
+- Cross-Site Scripting (XSS) Prevention
+- Cross-Site Request Forgery (CSRF) Protection
+- SQL Injection Prevention
+- Secure Coding Practices
+- HTTPS and TLS Implementation
+- API Security
+- Web Application Firewalls
+- Security Headers
+- Content Security Policy (CSP)
+- Input Validation and Sanitization
+- Data Encryption (at Rest and in Transit)
+- Secrets Management
+- Security Logging and Monitoring
+- Vulnerability Scanning
+- Penetration Testing
+- Security Code Reviews
+- GDPR Compliance
+- Security in CI/CD Pipelines
+- Container Security
+- Cloud Security Principles
+- Secure DevOps Practices
+- Social Engineering Prevention
+- Security Threat Modeling
+
+
+## Performance Optimization
+- Profiling
+- Caching Strategies
+- Database Optimization
+
+## Version Control (Git)
+- Git Fundamentals and Core Concepts
+- Repository Setup and Configuration
+- Basic Git Commands (add, commit, push, pull)
+- Branching and Merging Strategies
+- Git Workflows (Gitflow, GitHub Flow, Trunk-Based)
+- Pull Requests and Code Reviews
+- Resolving Merge Conflicts
+- Git Rebasing vs Merging
+- Interactive Rebasing
+- Cherry Picking
+- Git Hooks
+- Git Submodules and Subtrees
+- Git Tags and Releases
+- Git Bisect for Debugging
+- Git Stash
+- Git Reflog for Recovery
+- Conventional Commits
+- Semantic Versioning
+- Git Blame and History
+- Advanced Git Log Techniques
+- Git LFS (Large File Storage)
+- Monorepo Strategies
+- Git Security Best Practices
+- GitHub/GitLab/Bitbucket Specific Features
+- Git in CI/CD Pipelines
+- Git Automation and Scripting
+
+## Microsoft SQL Server
+- SQL Server Installation and Configuration
+- SQL Server Management Studio (SSMS)
+- Database Creation and Design
+- Tables, Views, and Schemas
+- Primary and Foreign Keys
+- Constraints and Data Integrity
+- Data Types and Storage
+- T-SQL Fundamentals
+- Stored Procedures and Functions
+- Triggers and Event Notifications
+- Transactions and Isolation Levels
+- Error Handling in T-SQL
+- Batching and Dynamic SQL
+- Indexing Strategies and Maintenance
+- Query Optimization and Execution Plans
+- SQL Server Profiler and Extended Events
+- Performance Monitoring and Tuning
+- Database Maintenance and Backups
+- High Availability Options (AlwaysOn, Mirroring)
+- Disaster Recovery Planning
+- Log Shipping and Replication
+- SQL Server Security (Logins, Users, Roles)
+- Row-Level Security and Dynamic Data Masking
+- Transparent Data Encryption
+- SQL Server Agent and Jobs
+- SSIS (SQL Server Integration Services)
+- SSRS (SQL Server Reporting Services)
+- SSAS (SQL Server Analysis Services)
+- Temporal Tables
+- JSON Support in SQL Server
+- In-Memory OLTP (Hekaton)
+- Columnstore Indexes
+- SQL Server on Containers/Docker
+- Azure SQL Database Migration
+
+## Python
+- Python Basics and Syntax
+- Data Types and Variables
+- Control Flow (if, else, loops)
+- Functions and Parameters
+- Lists, Tuples, and Dictionaries
+- Sets and Collections
+- String Manipulation
+- File Handling and I/O
+- Exception Handling
+- Modules and Packages
+- Virtual Environments
+- Object-Oriented Programming in Python
+- Classes and Inheritance
+- Decorators and Generators
+- List Comprehensions
+- Lambda Functions
+- Regular Expressions
+- Built-in Functions
+- Working with JSON and CSV
+- Python Standard Library
+- Popular Libraries (NumPy, Pandas, Matplotlib)
+- Web Scraping (BeautifulSoup, Scrapy)
+- API Integration with Requests
+- Testing in Python (pytest, unittest)
+- Debugging Python Code
+- Python for Data Science
+- Web Development with Flask/Django
+- Asynchronous Programming (asyncio)
+- Type Hints and Annotations
+- Python Design Patterns
+- Performance Optimization
+- Python in DevOps
+- Python for Automation
+
+## Algorithms & Data Structures
+- Common Algorithms
+- Time/Space Complexity
+- Problem-Solving Patterns
+## Troubleshooting
+- Debugging Techniques
+- Common Issues
+- Performance Analysis
+
+# Interest and Hobbies
 ## Spanish
+- Basic Vocabulary and Phrases
+- Spanish Alphabet and Pronunciation
+- Greetings and Introductions
+- Numbers, Colors, and Time
+- Spanish Grammar Fundamentals
+- Verb Conjugation (Present, Past, Future)
+- Regular and Irregular Verbs
+- Ser vs Estar
+- Por vs Para
+- Subjunctive Mood
+- Conversation Practice
+- Common Expressions and Idioms
+- Spanish for Travel
+- Business Spanish
+- Listening Comprehension
+- Reading and Writing Skills
+- Spanish Dialects and Regional Differences
+- Cultural Topics (Latin American vs. Spain)
+- Spanish Literature and Media
+- Language Learning Resources
+- Language Exchange Opportunities
+- Spanish Proficiency Levels (A1-C2)
+- Translation Practice
+- Vocabulary Building Techniques
+
+## Mathematics
+- Arithmetic
+  - Basic Operations
+  - Fractions and Decimals
+  - Percentages
+  - Ratios and Proportions
+- Algebra
+  - Equations and Inequalities
+  - Polynomials
+  - Factoring
+  - Systems of Equations
+  - Matrices and Determinants
+- Geometry
+  - Euclidean Geometry
+  - Coordinate Geometry
+  - Transformations
+  - Vectors
+  - Solid Geometry
+- Trigonometry
+  - Trigonometric Functions
+  - Identities and Equations
+  - Right Triangle Trigonometry
+  - Law of Sines and Cosines
+- Calculus
+  - Limits and Continuity
+  - Differentiation
+  - Integration
+  - Differential Equations
+  - Multivariable Calculus
+- Functions
+  - Linear Functions
+  - Quadratic Functions
+  - Exponential and Logarithmic Functions
+  - Rational Functions
+- Probability and Statistics
+  - Descriptive Statistics
+  - Probability Distributions
+  - Hypothesis Testing
+  - Regression Analysis
+  - Bayesian Statistics
+- Number Theory
+  - Prime Numbers
+  - Modular Arithmetic
+  - Diophantine Equations
+- Linear Algebra
+  - Vector Spaces
+  - Eigenvalues and Eigenvectors
+  - Transformations
+- Discrete Mathematics
+  - Combinatorics
+  - Graph Theory
+  - Recurrence Relations
+  - Boolean Algebra
+
+## History
+- Ancient History
+  - Prehistoric Era
+  - Mesopotamian Civilizations
+  - Ancient Egypt
+  - Ancient Greece
+  - Roman Empire
+  - Ancient China
+  - Ancient India
+- Medieval History
+  - Early Middle Ages
+  - High Middle Ages
+  - Late Middle Ages
+  - Byzantine Empire
+  - Islamic Golden Age
+  - Medieval Asia
+- Early Modern Period
+  - Renaissance
+  - Age of Exploration
+  - Reformation
+  - Scientific Revolution
+  - Enlightenment
+  - Colonial Era
+- Modern History
+  - Industrial Revolution
+  - French Revolution
+  - American Revolution
+  - Imperialism and Colonization
+  - World War I
+  - Interwar Period
+  - World War II
+  - Cold War Era
+  - Post-Cold War World
+- Regional Histories
+  - European History
+  - American History
+  - Asian History
+  - African History
+  - Latin American History
+  - Middle Eastern History
+- Historical Methodologies
+  - Historiography
+  - Archaeological Approaches
+  - Primary Source Analysis
+  - Oral History
+  - Economic History
+  - Social History
+  - Cultural History
+  - Military History
+## Art
+- Art History and Movements
+  - Ancient Art
+  - Renaissance Art
+  - Impressionism
+  - Modernism
+  - Contemporary Art
+  - Global Art Traditions
+- Drawing Fundamentals
+  - Perspective
+  - Light and Shadow
+  - Composition
+  - Line Work
+  - Figure Drawing
+- Painting Techniques
+  - Watercolor
+  - Acrylic
+  - Oil
+  - Gouache
+  - Mixed Media
+- Digital Art
+  - Digital Painting
+  - Vector Graphics
+  - 3D Modeling
+  - Animation Basics
+  - Graphic Design Principles
+- Photography
+  - Composition Rules
+  - Lighting Techniques
+  - Camera Settings
+  - Post-Processing
+  - Types of Photography
+- Sculpture and 3D Arts
+  - Clay Modeling
+  - Carving
+  - Assemblage
+  - Installation Art
+- Art Appreciation
+  - Analyzing Artwork
+  - Museum Studies
+  - Art Criticism
+  - Aesthetics
+- Color Theory
+  - Color Schemes
+  - Psychology of Color
+  - Color Mixing
+  - Color in Design
+- Art Business
+  - Selling Artwork
+  - Art Marketing
+  - Portfolio Development
+  - Copyright for Artists
+
+## Art History
+- Prehistoric Art
+  - Cave Paintings
+  - Megalithic Art
+  - Neolithic Art
+- Ancient Art
+  - Egyptian Art
+  - Mesopotamian Art
+  - Greek Art
+  - Roman Art
+  - Asian Ancient Art
+- Medieval Art
+  - Byzantine Art
+  - Romanesque Art
+  - Gothic Art
+  - Islamic Art
+- Renaissance Art
+  - Early Renaissance
+  - High Renaissance
+  - Northern Renaissance
+  - Mannerism
+- Baroque and Rococo
+  - Dutch Golden Age
+  - Spanish Baroque
+  - French Rococo
+- Neoclassicism and Romanticism
+  - Academic Art
+  - Romantic Landscapes
+  - Orientalism
+- Modern Art Movements
+  - Impressionism
+  - Post-Impressionism
+  - Expressionism
+  - Cubism
+  - Surrealism
+  - Abstract Expressionism
+  - Pop Art
+  - Minimalism
+- Contemporary Art
+  - Conceptual Art
+  - Performance Art
+  - Installation Art
+  - Digital Art
+  - Street Art
+- Global Art Traditions
+  - African Art
+  - Asian Art Traditions
+  - Latin American Art
+  - Indigenous Art
+- Art Theory and Criticism
+  - Art Analysis Methods
+  - Major Art Theorists
+  - Changing Definitions of Art
+
+## Finance
+- Personal Finance Fundamentals
+- Budgeting and Financial Planning
+- Debt Management
+- Credit Scores and Reports
+- Emergency Funds
+- Retirement Planning
+- Investment Basics
+  - Stocks and Bonds
+  - Mutual Funds and ETFs
+  - Index Investing
+  - Portfolio Diversification
+- Financial Markets
+  - Market Structure
+  - Market Indicators
+  - Technical Analysis
+  - Fundamental Analysis
+- Banking and Financial Services
+- Insurance (Life, Health, Property)
+- Tax Planning and Strategies
+- Real Estate Investing
+- Financial Risk Management
+- Passive Income Strategies
+- Wealth Building Principles
+- Financial Independence (FIRE)
+- Cryptocurrency and Blockchain
+- Behavioral Finance
+- Economic Concepts
+  - Inflation and Interest Rates
+  - Business Cycles
+  - Monetary Policy
+- Financial Statements Analysis
+- Valuation Methods
+- Corporate Finance
+- Financial Regulations
+- Estate Planning
+- International Finance
+- Financial Technology (FinTech)
+

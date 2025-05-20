@@ -35,3 +35,55 @@ int result = MathUtilities.Add(5, 3);
 - You want to **organize code** into separate modules.
 - You're building a **plugin or API** for others to use.
 
+# Additional Notes on C# Class Libraries
+
+## Creating and Managing Libraries
+- **Project Creation**: Create using Visual Studio (File > New > Project > Class Library) or via CLI (`dotnet new classlib`)
+- **Project References**: Add dependencies via NuGet or direct project references
+- **Organization**: Consider organizing related classes into meaningful namespaces
+
+## Assembly Management
+- **Strong Naming**: Use strong-named assemblies to uniquely identify your libraries
+```csharp
+[assembly: AssemblyKeyFile("myKey.snk")]
+```
+- **Assembly Info**: Control metadata via assembly attributes
+```csharp
+[assembly: AssemblyVersion("1.0.0.0")]
+[assembly: AssemblyCompany("Your Company")]
+```
+
+## Visibility Control
+- **Internal Access**: Members marked `internal` are only visible within the same assembly
+- **InternalsVisibleTo**: Allow specific assemblies to access internal members
+```csharp
+[assembly: InternalsVisibleTo("MyTests")]
+```
+
+## Distribution
+- **NuGet Packaging**: Create `.nupkg` files to distribute via NuGet
+```xml
+<PackageId>MyCompany.MyLibrary</PackageId>
+<Version>1.0.0</Version>
+<Authors>Your Name</Authors>
+```
+- **Private Feeds**: Host private packages for team/organization use
+- **Documentation**: Generate XML documentation for IntelliSense
+
+## Cross-Platform and Framework Targeting
+- **Multi-targeting**: Target multiple frameworks in one library
+```xml
+<TargetFrameworks>net6.0;net7.0;netstandard2.0</TargetFrameworks>
+```
+- **Conditional Compilation**: Use `#if` directives for platform-specific code
+```csharp
+#if NET6_0_OR_GREATER
+// .NET 6+ specific code
+#else
+// Fallback implementation
+#endif
+```
+
+## Testing Considerations
+- **Unit Test Projects**: Create separate test projects that reference your library
+- **Test Coverage**: Aim for high test coverage of public APIs
